@@ -67,7 +67,7 @@ export function About() {
               há 8 anos
             </h2>
             <p className="text-gray-500 mb-5" style={{ lineHeight: 1.8 }}>
-              Fundado em 2016, o <strong className="text-gray-700">LavaJato Premium</strong> nasceu
+              Fundado em 2026, o <strong className="text-gray-700">Estética Automotiva Premium</strong> nasceu
               da paixão por carros e do compromisso com a excelência. O que começou como um pequeno
               negócio familiar cresceu e se tornou referência em detalhamento automotivo em Curitiba.
             </p>

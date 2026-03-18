@@ -5,6 +5,9 @@
     "version": "0.2.0",
     "configurations": [
         
+
+        
+        
         {
             "name": "Containers .NET Attach (Preview)",
             "type": "docker",

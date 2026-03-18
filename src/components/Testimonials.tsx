@@ -49,7 +49,7 @@ export function Testimonials() {
             className="inline-block px-4 py-1.5 bg-[#00b4d8]/15 text-[#00b4d8] rounded-full text-sm mb-4"
             style={{ fontWeight: 600 }}
           >
-            Depoimentos
+            Avaliações
           </span>
           <h2
             className="text-white"

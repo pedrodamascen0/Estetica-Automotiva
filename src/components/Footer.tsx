@@ -58,7 +58,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-white/50 text-sm mb-5" style={{ lineHeight: 1.7 }}>
-              Seu carro merece o melhor cuidado. Desde 2016 oferecendo excelência em lavagem
+              Seu carro merece o melhor cuidado. Desde 2026 oferecendo excelência em lavagem
               e detalhamento automotivo em Curitiba.
             </p>
             <div className="flex gap-3">

@@ -17,19 +17,19 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Endereço",
-    lines: ["Rua das Flores, 1234", "Batel, Curitiba – PR"],
+    lines: ["Rua São Francisco, NA", "Centro, Senador Alexandre Costa – MA"],
     color: "#00b4d8",
   },
   {
     icon: Phone,
     title: "Telefone",
-    lines: ["(41) 9 9999-0000", "(41) 3333-0000"],
+    lines: ["(99) 98400-0000", "(99) 3333-0000"],
     color: "#0077b6",
   },
   {
     icon: Clock,
     title: "Horário",
-    lines: ["Seg–Sex: 7h às 19h", "Sáb–Dom: 8h às 17h"],
+    lines: ["Seg–Sex: 7h às 19h", "Sáb: 8h às 17h"],
     color: "#2dc653",
   },
   {
@@ -155,8 +155,8 @@ export function Contact() {
               </div>
               <div className="flex gap-3">
                 {[
-                  { icon: Instagram, label: "@lavajatopremium", color: "#E1306C" },
-                  { icon: Facebook, label: "LavaJato Premium", color: "#1877F2" },
+                  { icon: Instagram, label: "@EstéticaAutomotiva", color: "#E1306C" },
+                  { icon: Facebook, label: "Estética Automotiva Premium", color: "#1877F2" },
                   { icon: MessageCircle, label: "WhatsApp", color: "#25D366" },
                 ].map((social) => (
                   <button

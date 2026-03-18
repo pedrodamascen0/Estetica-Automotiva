@@ -25,7 +25,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Lava Jato Premium"
+          alt="Estética Automotiva Premium"
           className="w-full h-full object-cover opacity-25"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a0f1e] via-[#0a0f1e]/80 to-transparent" />
@@ -70,7 +70,7 @@ export function Hero() {
           >
             <span className="w-2 h-2 rounded-full bg-[#00b4d8] animate-pulse" />
             <span className="text-[#00b4d8] text-sm" style={{ fontWeight: 500 }}>
-              Lavagem Profissional em Curitiba
+              Lavagem Profissional em Senador Alexandre Costa - MA
             </span>
           </motion.div>
 
@@ -155,10 +155,10 @@ export function Hero() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { value: "5.000+", label: "Clientes Satisfeitos" },
-              { value: "8 anos", label: "De Experiência" },
+              { value: "+100", label: "Clientes Satisfeitos" },
+              { value: "1 ano", label: "De Experiência" },
               { value: "98%", label: "Taxa de Satisfação" },
-              { value: "20min", label: "Tempo Médio" },
+              { value: "2 horas", label: "Tempo Médio" },
             ].map((stat, i) => (
               <div key={i}>
                 <div className="text-white" style={{ fontSize: "1.5rem", fontWeight: 700 }}>

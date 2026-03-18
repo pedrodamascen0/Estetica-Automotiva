@@ -62,7 +62,7 @@ export function Navbar() {
               <Droplets className="w-5 h-5 text-white" />
             </div>
             <span className="text-white" style={{ fontSize: "1.1rem", fontWeight: 700, letterSpacing: "0.02em" }}>
-              Lava<span className="text-[#00b4d8]">Jato</span> Premium
+            Estética<span className="text-[#00b4d8]"> Automotiva</span> Premium
             </span>
           </button>
 
