@@ -64,7 +64,7 @@ export function About() {
             >
               Cuidando do seu carro{" "}
               <span className="text-[#00b4d8]">com paixão</span>{" "}
-              há 8 anos
+              há 1 anos
             </h2>
             <p className="text-gray-500 mb-5" style={{ lineHeight: 1.8 }}>
               Fundado em 2026, o <strong className="text-gray-700">Estética Automotiva Premium</strong> nasceu
@@ -80,9 +80,9 @@ export function About() {
             {/* Mini Stats */}
             <div className="grid grid-cols-3 gap-4">
               {[
-                { value: "5K+", label: "Clientes" },
-                { value: "8", label: "Anos" },
-                { value: "12", label: "Especialistas" },
+                { value: "+100", label: "Clientes" },
+                { value: "2", label: "Anos" },
+                { value: "5", label: "Especialistas" },
               ].map((s, i) => (
                 <div key={i} className="text-center p-4 bg-gray-50 rounded-xl border border-gray-100">
                   <div className="text-[#00b4d8]" style={{ fontSize: "1.6rem", fontWeight: 800 }}>
@@ -131,7 +131,7 @@ export function About() {
                 </div>
               </div>
               <p className="text-gray-500 text-xs" style={{ lineHeight: 1.5 }}>
-                Melhor lava jato da região por 3 anos consecutivos
+                Melhor lava jato da região por 2 anos consecutivos
               </p>
             </motion.div>
 
