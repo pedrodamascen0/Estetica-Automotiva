@@ -11,9 +11,9 @@ const footerLinks = {
   ],
   Empresa: ["Sobre Nós", "Nossa Equipe", "Depoimentos", "Blog"],
   Contato: [
-    "Rua das Flores, 1234 – Batel",
-    "Curitiba – PR, 80000-000",
-    "(41) 9 9999-0000",
+    "Rua São Francisco, NA – Centro",
+    "Senador Alexandre Costa – MA, 65010-000",
+    "(99) 99999-9999",
     "contato@lavajatopremium.com.br",
   ],
 };
@@ -54,7 +54,7 @@ export function Footer() {
                 <Droplets className="w-5 h-5 text-white" />
               </div>
               <span className="text-white" style={{ fontSize: "1rem", fontWeight: 700 }}>
-                Lava<span className="text-[#00b4d8]">Jato</span> Premium
+                Estética<span className="text-[#00b4d8]">Automotiva</span> Premium
               </span>
             </div>
             <p className="text-white/50 text-sm mb-5" style={{ lineHeight: 1.7 }}>
@@ -99,7 +99,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/30 text-sm">
-            © {new Date().getFullYear()} LavaJato Premium. Todos os direitos reservados.
+            © {new Date().getFullYear()} Estética Automotiva Premium. Todos os direitos reservados.
           </p>
           <div className="flex items-center gap-6">
             <span className="text-white/30 text-sm cursor-pointer hover:text-white/50 transition-colors">
